@@ -1,14 +1,14 @@
 //import { makePottery } from "./PotteryWheel.js"
 
-export const firePottery = (shapedClay, kilnTemp) => {
-    shapedClay.fired = true
+export const firePottery = (workInProgress, kilnTemp) => {
+    workInProgress.fired = true
     if (kilnTemp > 2200) {
-        shapedClay.cracked = true
+        workInProgress.cracked = true
     }
     else {
-        shapedClay.cracked = false
+        workInProgress.cracked = false
     }
-    return shapedClay
+    return workInProgress
 }
 /*
 // Define a scripts/Kiln.js module.
