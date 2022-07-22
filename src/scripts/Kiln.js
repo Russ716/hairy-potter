@@ -1,5 +1,4 @@
-//import { makePottery } from "./PotteryWheel.js"
-
+import { makePottery } from "./PotteryWheel.js"
 export const firePottery = (workInProgress, kilnTemp) => {
     workInProgress.fired = true
     if (kilnTemp > 2200) {
