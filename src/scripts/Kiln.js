@@ -7,7 +7,7 @@ export const firePottery = (workInProgress, kilnTemp) => {
     else {
         workInProgress.cracked = false
     }
-    return workInProgress
+    return workInProgress  
 }
 /*
 // Define a scripts/Kiln.js module.
